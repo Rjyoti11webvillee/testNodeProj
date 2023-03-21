@@ -15,6 +15,6 @@ dotenv.config({path:'./.env'})
 //setting for route
 app.use(router);
 
-//const PORT = process.env.PORT;
-console.log('server started on port:',5000);
-app.listen(5000);
+const PORT = process.env.PORT;
+console.log('server started on port:',PORT);
+app.listen(PORT);
