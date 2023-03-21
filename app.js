@@ -17,4 +17,4 @@ app.use(router);
 
 //const PORT = process.env.PORT;
 console.log('server started on port:',5000);
-app.listen(PORT);
+app.listen(5000);
