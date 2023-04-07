@@ -42,8 +42,14 @@ greetings = function(req,res){
     
 }
 
+new_greetings = function(req,res){
+    res.json({status:200, success:true, message: 'Welcome Jyoti'})
+
+}
+
 module.exports = {
     insertUser,
     getAllUser,
-    greetings
+    greetings,
+    new_greetings
 }
